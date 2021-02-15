@@ -1,0 +1,40 @@
+# Site settings
+name: Fahd Ksara
+title: Fahd Ksara | Cool Website
+url: https://faskyy.github.io/
+baseurl: ''
+email: fahdk@temple.edu
+logo: https://emojis.wiki/emoji-pics/apple/man-technologist-apple.png
+resume: https://faskyy.github.io/FahdKsaraResume.pdf
+
+social:
+  - title: email
+    url: mailto:fahdk@temple.edu
+  - title: instagram
+    url: https://www.instagram.com/fahdksara/
+  - title: github
+    url: https://github.com/Faskyy
+  - title: linkedin
+    url: https://www.linkedin.com/in/fahdksara/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
