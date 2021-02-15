@@ -1,10 +1,5 @@
-# v3
+> Welcome to my online portfolio!
 
-Third iteration of my personal website built with Jekyll.
-
-> 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
->
-> Please be a decent person and give me proper credit by linking back to my website! Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure.
 
 ## Dependencies
 
@@ -12,6 +7,10 @@ Third iteration of my personal website built with Jekyll.
 
 ## Getting Started
 
-1.  `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
-2.  `npm install`
-3.  `npm start`
+1. `https://stackoverflow.com/questions/18908708/installing-rubygems-in-windows`
+2.  `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
+3.  `npm install`
+4.  `npm start`
+
+
+> Initial design made by Brittany Chiang - https://github.com/bchiang7/bchiang7.github.io
