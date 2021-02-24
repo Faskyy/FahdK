@@ -1,33 +1,33 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
+  - item: JavaScript
+  - item: Java
+  - item: HTML3
+  - item: CSS5/Sass
   - item: Python
   - item: SQL
-  - item: R
+  - item: C#
 
 frameworks:
-  - item: Ember & Glimmer
+  - item: Strapi
   - item: React
   - item: Jekyll
   - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: .NET
+  - item: Selenium
+  - item: Quasar
 
 tools:
   - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
+  - item: NPM
+  - item: WebAPIs
   - item: Postman
-  - item: MongoDB
+  - item: Jira
 
 design:
   - item: Sketch
-  - item: InDesign
-  - item: InVision
+  - item: Adobe Creative Cloud
+  - item: User Interfacing
   - item: Prototyping
   - item: Wireframing
   - item: User Testing
