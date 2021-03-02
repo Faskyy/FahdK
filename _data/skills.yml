@@ -23,6 +23,7 @@ tools:
   - item: WebAPIs
   - item: Postman
   - item: Jira
+  - item: Bootstrap
 
 design:
   - item: Sketch
