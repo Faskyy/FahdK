@@ -1,4 +1,5 @@
-<div class="footer__links">
+<div class="switch-wrapper">
+    <div class="footer__links">
     {% for link in site.social %}
     <a href="{{link.url}}" target="_blank" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
@@ -6,8 +7,6 @@
     </a>
     {% endfor %}
   </div>
-
-<div class="switch-wrapper">
   <div class="sun"></div>
   <div class="toggle-wrapper">
     <input id="switch" type="checkbox" />
