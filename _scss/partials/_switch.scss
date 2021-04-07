@@ -4,10 +4,10 @@
   align-items: center;
   position: absolute;
   top: 20px;
-  left: 30px;
+  right: 0px;
   @include mobile {
     top: 10px;
-    left: 20px;
+    right: 0px;
   }
   .sun, .moon {
     width: 17px;
