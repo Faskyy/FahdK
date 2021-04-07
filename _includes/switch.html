@@ -1,11 +1,5 @@
-<div class="switch-wrapper" style="padding-right: 500px;">
-  <div class="sun"></div>
-  <div class="toggle-wrapper">
-    <input id="switch" type="checkbox" />
-    <label for="switch" id="toggle">Toggle</label>
-  </div>
-  <div class="moon"></div>
-    <div class="footer__links">
+<div class="switch-wrapper">
+  <div class="footer__links" style="padding-right: 5px;">
     {% for link in site.social %}
     <a href="{{link.url}}" target="_blank" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
@@ -13,4 +7,10 @@
     </a>
     {% endfor %}
   </div>
+  <div class="sun"></div>
+  <div class="toggle-wrapper">
+    <input id="switch" type="checkbox" />
+    <label for="switch" id="toggle">Toggle</label>
+  </div>
+  <div class="moon"></div>
 </div>
