@@ -1,12 +1,3 @@
-<div class="footer__links">
-    {% for link in site.social %}
-    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
-    </a>
-    {% endfor %}
-  </div>
-
 <div class="switch-wrapper">
   <div class="sun"></div>
   <div class="toggle-wrapper">
@@ -14,4 +5,12 @@
     <label for="switch" id="toggle">Toggle</label>
   </div>
   <div class="moon"></div>
+    <div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
 </div>
